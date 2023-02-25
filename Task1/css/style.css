@@ -1,0 +1,124 @@
+/* Navbar Section Start */
+nav,
+header {
+  padding: 2rem 12rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #000;
+}
+.links {
+  margin-left: 15rem;
+}
+.options {
+  color: #7f7f7f;
+  display: flex;
+  margin-left: 2rem;
+  font-weight: 500;
+}
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+nav .button {
+  background-color: #0160f2;
+  color: #fff;
+  border: none;
+  border-radius: 0.3rem;
+  padding: 0.7rem 1.2rem;
+}
+/* Navbar Section End */
+
+/* Header Section Start */
+header {
+  background-color: #6901c7;
+  background-image: url(/images/pattern-shapes.png);
+}
+
+/* Left Div Start */
+.left {
+  color: #fff;
+  text-align: left;
+  margin: 10rem 6rem 10rem 0;
+}
+.start {
+  display: inline-block;
+  color: #6901c7;
+  background-color: #e4ddf7;
+  font-size: 0.75rem;
+  padding: 0.2rem 0.8rem;
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+}
+.left h1 {
+  font-size: 2.5rem;
+  font-weight: 500;
+  line-height: 3rem;
+  margin-bottom: 1rem;
+  letter-spacing: 0.08rem;
+}
+.left .text {
+  color: #b785e5;
+  font-size: 1.15rem;
+  font-weight: 400;
+}
+/* Left Div End */
+
+/* Right Div Start */
+.right {
+  background-color: #fff;
+  border-radius: 0.5rem;
+  width: 95rem;
+}
+.sign-up {
+  background-color: #f8f8f9;
+  color: #0160f2;
+  padding: 2rem 1rem;
+  font-weight: 500;
+  border-bottom: #dddee0 1px solid;
+}
+.inputs {
+  color: #7f7f7f;
+  font-weight: 400;
+  font-size: 0.88rem;
+  padding: 1.5rem 1rem;
+}
+.names {
+  display: flex;
+  justify-content: space-between;
+  line-height: 1.5rem;
+  padding-bottom: 1rem;
+}
+.first-name input,
+.last-name input {
+  border: #999ea4 1px solid;
+  border-radius: 0.3rem;
+  width: 13rem;
+  height: 3rem;
+  display: inline-block;
+}
+.email,
+.company {
+  padding-bottom: 1.5rem;
+  line-height: 1.5rem;
+}
+.email input,
+.company input {
+  border: #999ea4 1px solid;
+  border-radius: 0.3rem;
+  width: 100%;
+  height: 3rem;
+}
+.download {
+  background-color: #0160f2;
+  color: #fff;
+  border: none;
+  border-radius: 0.3rem;
+  padding: 0.7rem 1.2rem;
+  text-align: center;
+}
