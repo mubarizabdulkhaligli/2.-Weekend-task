@@ -1,8 +1,6 @@
 /* Navbar Section Start */
-nav,
-header,
-#contact {
-  padding: 4rem 12rem;
+nav {
+  padding: 2rem 12rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -21,6 +19,9 @@ header,
   margin-left: 2rem;
   font-weight: 500;
 }
+.options:hover {
+  font-weight: bold;
+}
 nav ul {
   list-style: none;
   display: flex;
@@ -33,9 +34,19 @@ nav .button {
   border-radius: 0.3rem;
   padding: 0.7rem 1.2rem;
 }
+nav .button:hover{
+  background-color: #064db1;
+}
 /* Navbar Section End */
 
 /* Header Section Start */
+header,
+#contact {
+  padding: 4rem 12rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 header {
   background-color: #6901c7;
   background-image: url(/images/pattern-shapes.png);
@@ -120,11 +131,47 @@ header {
   color: #fff;
   border: none;
   border-radius: 0.3rem;
-  padding: 0.7rem 1.2rem;
-  text-align: center;
+  height: 3rem;
 }
+.download span{
+  padding-left: 12rem;
+  padding-right: 12rem;
+}
+
+.download:hover{
+  background-color: #064db1;
+}
+
 /* Header Right Div End */
 /* Header Section End */
+
+.animated-icon {
+  cursor: pointer;
+  position: fixed;
+  top: 5rem;
+  right: 0;
+  width: 3.5rem;
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  border: #fff 1px solid;
+  border-radius: 0.5rem 0 0 0.5rem;
+}
+.gear{
+  width: 1rem;
+  height: 1rem;
+  animation: rotate 2s linear infinite;
+}
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
 
 /* Main Section Start */
 
@@ -282,10 +329,17 @@ header {
   background-color: #0160f2;
   border: 1px #0160f2 solid;
 }
+.start:hover{
+  background-color: #064db1;
+}
 .contact-us {
   color: #68707a;
   background-color: #fff;
   border: 1px #fff solid;
+}
+
+.contact-us:hover{
+background-color: #e3e4e5;
 }
 /* Contact Section End */
 
