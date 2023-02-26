@@ -1,7 +1,8 @@
 /* Navbar Section Start */
 nav,
-header {
-  padding: 3rem 12rem;
+header,
+#contact {
+  padding: 4rem 12rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -20,7 +21,7 @@ header {
   margin-left: 2rem;
   font-weight: 500;
 }
-ul {
+nav ul {
   list-style: none;
   display: flex;
   flex-direction: row;
@@ -40,8 +41,8 @@ header {
   background-image: url(/images/pattern-shapes.png);
 }
 
-/* Left Div Start */
-.left {
+/* Header-Left Div Start */
+.header-left {
   color: #fff;
   text-align: left;
   margin: 10rem 6rem 10rem 0;
@@ -54,22 +55,22 @@ header {
   padding: 0.2rem 0.8rem;
   border-radius: 1rem;
 }
-.left h1 {
+.header-left h1 {
   font-size: 2.5rem;
   font-weight: 500;
   line-height: 3rem;
   margin: 1rem 0;
   letter-spacing: 0.08rem;
 }
-.left .text {
+.header-left .text {
   color: #b785e5;
   font-size: 1.15rem;
   font-weight: 400;
 }
-/* Left Div End */
+/* Header-Left Div End */
 
-/* Right Div Start */
-.right {
+/* Header-Right Div Start */
+.header-right {
   background-color: #fff;
   border-radius: 0.5rem;
   width: 95rem;
@@ -122,7 +123,7 @@ header {
   padding: 0.7rem 1.2rem;
   text-align: center;
 }
-/* Right Div End */
+/* Header Right Div End */
 /* Header Section End */
 
 /* Main Section Start */
@@ -165,56 +166,68 @@ header {
 /* About Section Start */
 #about {
   background-color: #f2f6fb;
-  padding: 3rem 12rem;
+  padding: 4rem 12rem;
 }
 .about-top {
   display: inline-block;
   width: 40rem;
   margin-bottom: 2rem;
 }
-.about-top h3{
+.about-top h3 {
   font-size: 1.4rem;
   font-weight: 500;
   line-height: 1.68rem;
   letter-spacing: 0.08rem;
   margin: 0.5rem 0;
 }
-.p-about{
+.p-about {
   color: #999fa8;
   font-size: 1.1rem;
   font-weight: 400;
   line-height: 1.65rem;
 }
-.about-bottom{
+.about-bottom {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
-.box1, .box2, .box3, .box4{
+.box1,
+.box2,
+.box3,
+.box4 {
   background-color: #fff;
   width: 32rem;
   padding: 2rem;
   margin-bottom: 2rem;
   border-radius: 0.5rem;
 }
-.box1 h3, .box2 h3, .box3 h3, .box4 h3{
+.box1 h3,
+.box2 h3,
+.box3 h3,
+.box4 h3 {
   font-size: 1.1rem;
   font-weight: 500;
   letter-spacing: 0.08rem;
   line-height: 1.5rem;
   margin-top: 1rem;
 }
-.box1 p, .box2 p, .box3 p, .box4 p{
+.box1 p,
+.box2 p,
+.box3 p,
+.box4 p {
   color: #999fa8;
   font-weight: 300;
   letter-spacing: 0.05rem;
   line-height: 1.5rem;
 }
-.box1 img, .box2 img, .box3 img, .box4 img{
+.box1 img,
+.box2 img,
+.box3 img,
+.box4 img {
   width: 2rem;
-  height: 2rem ;
+  height: 2rem;
 }
-.icon-div{
+.icon-div {
   display: inline-block;
   width: 6rem;
   height: 6rem;
@@ -223,15 +236,113 @@ header {
   justify-content: center;
   align-items: center;
 }
-.box1 .icon-div{
+.box1 .icon-div {
   background-color: #e4ddf7;
 }
-.box2 .icon-div{
+.box2 .icon-div {
   background-color: #daeeed;
 }
-.box3 .icon-div{
+.box3 .icon-div {
   background-color: #d9e7fb;
 }
-.box4 .icon-div{
+.box4 .icon-div {
   background-color: #f1eee3;
 }
+/* About Section End */
+
+/* Contact Section Start */
+#contact {
+  border-bottom: 1px #e3e4e5 solid;
+}
+.contact-left h3 {
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 1.44rem;
+  color: #0160f2;
+  word-spacing: 0.2rem;
+}
+.contact-left p {
+  font-size: 1.1rem;
+  font-weight: 400;
+  line-height: 1.65rem;
+  color: #68707a;
+  word-spacing: 0.2rem;
+}
+.start,
+.contact-us {
+  padding: 0.9rem 1.2rem;
+  border-radius: 0.3rem;
+  margin-left: 0.5rem;
+  font-weight: 500;
+  font-size: 0.88rem;
+  cursor: pointer;
+}
+.start {
+  color: #fff;
+  background-color: #0160f2;
+  border: 1px #0160f2 solid;
+}
+.contact-us {
+  color: #68707a;
+  background-color: #fff;
+  border: 1px #fff solid;
+}
+/* Contact Section End */
+
+/* Main Section End */
+
+/* Footer Section Start */
+.footer-top {
+  display: flex;
+  color: #a6aeb8;
+  padding: 4rem 12rem;
+}
+.product,
+.technical,
+.includes,
+.legal {
+  margin-left: 6rem;
+}
+.footer-top h2 {
+  margin-bottom: 0.5rem;
+}
+.footer-top h5 {
+  letter-spacing: 0.1rem;
+  margin-bottom: 1rem;
+}
+.footer-top a {
+  color: #a6aeb8;
+  font-weight: 300;
+  font-size: 0.9rem;
+}
+.footer-top li {
+  margin-top: 0.5rem;
+}
+.info img {
+  width: 1.3rem;
+  margin-top: 1rem;
+  margin-right: 0.3rem;
+  filter: opacity(40%);
+}
+.footer-bottom {
+  padding: 0 12rem 0 12rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-bottom-content {
+  width: 100%;
+  padding: 2rem 0;
+  border-top: 1px #e3e4e5 solid;
+  display: flex;
+  justify-content: space-between;
+  color: #a6aeb8;
+  font-weight: 300;
+  font-size: 0.9rem;
+}
+.bottom-links a {
+  color: #a6aeb8;
+  font-weight: 300;
+  font-size: 0.9rem;
+}
+/* Footer Section End */
